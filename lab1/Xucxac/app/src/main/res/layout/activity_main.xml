@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:padding="16dp">
+
+
+    <TextView
+        android:id="@+id/textView"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textSize="50dp"
+        android:text="ROLL DICE"
+        android:gravity="center_horizontal"
+        android:layout_marginTop="50dp"
+        android:textStyle="bold"/>
+
+    <ImageView
+        android:id="@+id/imgDice"
+        android:layout_width="152dp"
+        android:layout_height="162dp"
+        android:layout_gravity="center_horizontal"
+        android:layout_marginTop="60pt"
+        android:src="@drawable/dice6" />
+
+    <Button
+        android:id="@+id/btnRoll"
+        android:layout_width="140dp"
+        android:layout_height="89dp"
+        android:layout_gravity="center_horizontal"
+        android:layout_marginTop="50pt"
+        android:text="Roll"
+        tools:layout_editor_absoluteX="106dp"
+        tools:layout_editor_absoluteY="82dp" />
+
+</LinearLayout>
