@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:padding="16dp"
+    android:id="@+id/main">
+
+    <EditText
+        android:id="@+id/txtC"
+        android:layout_width="395dp"
+        android:layout_height="87dp"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginStart="40dp"
+        android:layout_marginTop="31dp"
+        android:hint="Nhập độ Celsius"
+        android:inputType="numberDecimal" />
+
+    <Button
+        android:id="@+id/btnCtoF"
+        android:layout_width="142dp"
+        android:layout_height="56dp"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginStart="46dp"
+        android:layout_marginTop="304dp"
+        android:text="Chuyển sang °F" />
+
+    <EditText
+        android:id="@+id/txtF"
+        android:layout_width="395dp"
+        android:layout_height="96dp"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginStart="50dp"
+        android:layout_marginTop="150dp"
+        android:hint="Nhập độ Fahrenheit"
+        android:inputType="numberDecimal" />
+
+    <Button
+        android:id="@+id/btnFtoC"
+        android:layout_width="130dp"
+        android:layout_height="59dp"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentEnd="true"
+        android:layout_marginStart="236dp"
+        android:layout_marginTop="302dp"
+        android:layout_marginEnd="29dp"
+        android:text="Chuyển sang °C" />
+
+</RelativeLayout>
